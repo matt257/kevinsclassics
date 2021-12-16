@@ -1,6 +1,6 @@
 ### KEVIN'S CLASSICS
 
-#To Run
+# To Run
 
 * Clone the repo
 * run 'rails s'
