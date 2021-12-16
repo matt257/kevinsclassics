@@ -1,0 +1,107 @@
+// Place all the styles related to the Reservation controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+	font-family: 'Agency FB Bold', arial;
+	background-color: #edcfa9;
+	color: #aa4a30;
+	text-align: center;
+}
+
+label {
+	display: block;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #aa4a30;
+}
+
+input {
+	border: #d57149 solid 3px;
+}
+
+form {
+	margin-top: -25px;
+	border: 10px solid #d57149;
+	width: 730px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#signup {
+	font-size: 55px;
+	margin-top: -30px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#logo {
+	width: 400px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#submit {
+	border: solid 3px #d57149;
+	margin-top: 10px;
+	width: 200px;
+	height: 43px;
+	text-align: center;
+	font-size: 33px;
+	font-family: 'Agency FB Bold', arial;
+	color: #aa4a30;
+	background-color: #edcfa9;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#pics {
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#left-pizza {
+	border: 5px solid #aa4a30;
+	height: 300px;
+	width: 300px;
+	float: left;
+}
+
+#right-pizza {
+	border: 5px solid #aa4a30;
+	height: 300px;
+	width: 300px;
+	float: right;
+}
+
+#instagram-logo {
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+}
+
+#follow {
+	display: inline-block;
+	font-size: 12px;
+	margin-top: -30px;
+}
+
+#everybody {
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#at {
+	display: inline-block;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}

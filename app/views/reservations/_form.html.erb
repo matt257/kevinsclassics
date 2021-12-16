@@ -1,0 +1,11 @@
+<%= form_with model: reservation, id: "order" do |form| %>
+    <p id="signup">sign up to reserve your spot in line</p><br>
+        <%= form.label :name, "name" %>
+        <%= form.text_field :name, id: "name" %><br>
+        <%= form.label :phone, "phone" %>
+        <%= form.text_field :phone, id: "phone" %><br>
+        <%= form.label :instagram, "instagram" %>
+        <%= form.text_field :instagram, id: "instagram" %><br><br>   
+        <%= form.submit "submit", id: 'submit' %><br><br>
+    <p id=everybody>everybody eats&trade;</p><br>
+<% end %>

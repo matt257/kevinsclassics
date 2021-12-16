@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+<% @reservations.each do |reservation| %>
+    <h3>Reservation <%= reservation.id %></h3>
+    <li>
+    <%= reservation.name %>
+    </li>
+    <li>
+    <%= reservation.phone %>
+    </li>
+    <li>
+    <%= reservation.instagram %>
+    </li>
+    <%= button_to "Delete", reservation_path(reservation), method: :delete  %>
+<% end %>
+</body>
+</html>

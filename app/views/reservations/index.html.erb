@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <%= stylesheet_link_tag 'reservation' %>
+    <link href="https://allfont.net/allfont.css?fonts=agency-fb-bold" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <%= image_tag 'logo-transparent.png', id: 'logo' %>
+    <br><br><br>
+
+    <%= render "form", reservation: @reservation %>
+
+    <br><br>
+    <div id=pics> 
+        <%= image_tag 'pizza-1.jpeg', id: 'left-pizza' %>
+        <%= image_tag 'pizza-2.jpeg', id: 'right-pizza' %>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a href=https://www.instagram.com/aka_kcg>
+        <%= image_tag 'instagram-logo.jpg', id: 'instagram-logo' %>
+        </a>
+        <br>
+        <p id="follow">@aka_kcg</p>
+    </div>
+</body>
+</html>
